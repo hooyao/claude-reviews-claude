@@ -4,7 +4,7 @@
 
 *An AI reading its own source code. Yes, really. Anthropic probably didn't see this coming either.*
 
-*🍿 Season 1 now streaming | 8 episodes out | Claude reverse-engineers itself faster than it writes code.*
+*🍿 Season 1 now streaming | 9 episodes out | Claude reverse-engineers itself faster than it writes code.*
 
 *Don't miss an episode — Star ⭐ to subscribe.*
 
@@ -36,6 +36,7 @@ This is **not** a source code dump. It's a structured engineering analysis — a
 | 6 | **Bash Execution Engine** | Secure command execution, sandbox, pipe management (11.5K lines) | [Read →](architecture/06-bash-engine.md) |
 | 7 | **Permission Pipeline** | Defense-in-depth: config rules → tool checks → OS sandbox (9.5K lines) | [Read →](architecture/07-permission-pipeline.md) |
 | 8 | **Agent Swarms** | Multi-agent team coordination: mailbox IPC, backend detection, permission delegation (6.8K lines) | [Read →](architecture/08-agent-swarms.md) |
+| 9 | **Session Persistence** | Append-only JSONL storage, parent-UUID chains, 64KB lite resume (7.6K lines) | [Read →](architecture/09-session-persistence.md) |
 
 > ⭐ **Enjoy the meta? Star the repo — an AI analyzing itself deserves at least that.**
 
@@ -202,7 +203,7 @@ Permissions are checked at multiple levels: app-level config rules → tool-spec
 
 **Architecture Series** (Planned — high value ⭐⭐)
 - [x] Swarm agents — multi-agent group coordination (6.8K lines)
-- [ ] Session persistence — conversation storage (4.7K lines)
+- [x] Session persistence — conversation storage (7.6K lines)
 - [ ] Context assembly — attachments, memory, skills
 - [ ] Compact system — auto-compaction, snip, microcompact
 - [ ] Startup optimization — preloading, lazy imports

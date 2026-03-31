@@ -305,3 +305,4 @@ The swarm system is Claude Code's most operationally complex feature — it comb
 ---
 
 **Previous**: [← 07 — Permission Pipeline](07-permission-pipeline.md)
+**Next**: [→ 09 — Session Persistence](09-session-persistence.md)

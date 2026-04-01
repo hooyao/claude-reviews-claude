@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  name: "Claude Code Deep Dive"
+  name: "Claude Reviews Claude"
   text: "When AI Reads Its Own Source Code"
   tagline: "17 architecture deep dives written by Claude, dissecting Claude Code v2.1.88 — 1,902 files, 477K lines of TypeScript."
   actions:

@@ -48,8 +48,7 @@ features:
   --vp-home-hero-name-background: linear-gradient(135deg, #D97757, #E8A87C, #F0C4A8);
 }
 
-.VPHero .name {
-  font-size: 40px !important;
-  white-space: nowrap;
+.VPHero .main {
+  max-width: 700px;
 }
 </style>
